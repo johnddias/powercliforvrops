@@ -1,4 +1,4 @@
-﻿Connect-OMServer -Server 10.140.50.30 -User admin 
+﻿Connect-OMServer -Server {{IP}} -User admin 
 Get-OMAlert -Status Active -Criticality Critical -Impact Health
 Get-OMAlertType
 Get-OMAlertDefinition -Type 'Network Alerts' -SubType configuration
